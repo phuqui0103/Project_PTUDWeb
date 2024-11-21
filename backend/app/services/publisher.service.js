@@ -1,7 +1,7 @@
 const { ObjectId } = require("mongodb");
 class PublisherService {
     constructor(client) {
-        this.Publisher = client.db().collection("nhaXuatBan");
+        this.Publisher = client.db().collection("nhaxuatban");
     }
 // Định nghĩa các phương thức truy xuất CSDL sử dụng mongodb API
     infoPublisher(payload) {
